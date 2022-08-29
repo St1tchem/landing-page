@@ -40,6 +40,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    flex: 1 1 auto;
 }
 
 h1 {
@@ -55,6 +56,65 @@ h2 {
     font-size: 18px;
     color: #E5E7EB;
     margin: 0;
+}
+
+.headerimage {
+    flex: 1 2 auto;
+}
+
+.boxtwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    margin-bottom: 120px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+h3 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 60px;
+}
+
+.sqcontainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.square {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.boxthree {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 400px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quoter {
+    color: #1F2937;
+    font-size: 28px;
+    font-weight: bold;
+    align-self: flex-end;
 }
 
 button {
@@ -80,9 +140,4 @@ a:link {
     color: white;
 }
 
-img {
-    flex: 1 2 auto;
-    width: 500px;
-    height: 250px;
-    flex-shrink: 2;
-}
+
