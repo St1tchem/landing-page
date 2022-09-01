@@ -5,14 +5,13 @@ body {
 }
 
 .headerbox {
-    color: white;
+    color: #E5E7EB;
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    padding-top: 20px;
-    padding-left: 400px;
-    padding-right: 400px;
+    width: 100%;
     align-items: stretch;
+
 }
 
 .header {
@@ -22,6 +21,9 @@ body {
     display: flex;
     margin-bottom: 200px;
     justify-content: space-between;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .links {
@@ -33,14 +35,18 @@ body {
     display: flex;
     align-items: center;
     padding-bottom: 200px;
-    justify-content: space-between;
+    justify-content: center;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+
 }
 
 .headertext {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    flex: 1 1 auto;
 }
 
 h1 {
@@ -59,17 +65,18 @@ h2 {
 }
 
 .headerimage {
-    flex: 1 2 auto;
+    display: inline-block;
 }
 
 .boxtwo {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 60px;
+    width: 75%;
     margin-bottom: 120px;
-    padding-left: 400px;
-    padding-right: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 h3 {
@@ -83,6 +90,7 @@ h3 {
     display: flex;
     justify-content: space-between;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .square {
@@ -91,6 +99,7 @@ h3 {
     max-width: 300px;
     align-items: center;
     justify-content: center;
+    flex: 1;
 }
 
 .text {
@@ -101,13 +110,19 @@ h3 {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding: 100px 400px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    display: flex;
+    max-width: 60%;
+    align-self: center;
 }
 
 .quoter {
@@ -115,15 +130,61 @@ h3 {
     font-size: 28px;
     font-weight: bold;
     align-self: flex-end;
+    max-width: 60%;
+    margin-right: 20%;
+}
+
+.boxfour {
+    display: flex;
+    border-radius: 5px;
+    border: none;
+    background-color: #3882F6;
+    width: 65%;
+    padding: 50px 100px;
+    margin: 100px auto;
+    color: #E5E7EB;
+    justify-content: space-between;
+}
+
+.calltoaction {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.signup {
+    padding: 0;
+    margin: 0;
+}
+
+.lastbutton {
+    align-self: flex-end;
 }
 
 button {
     padding: 5px 20px;
     border-radius: 5px;
-    color: #E5E7EB;
-    border: none;
     background: #3882F6;
+    color: #E5E7EB;
+}
+
+.bone {
+    border: none;
     margin-right: auto;
+}
+
+.btwo {
+    border: 2px solid white;
+    margin-left: auto;
+}
+
+footer {
+    color: #E5E7EB;
+    background-color: #1F2937;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
 }
 
 ul {
